@@ -74,6 +74,7 @@ const SlideIn = React.createClass({
       position: 'relative',
       overflow: 'hidden',
       height: '100%',
+      width: '100%',
     }, style);
 
     let newChildren = React.Children.map(children, (child) => {
